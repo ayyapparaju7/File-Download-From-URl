@@ -1,7 +1,7 @@
 import openpyxl
 import  wget
 
-path = "C:\\Users\\ayyap\\PycharmProjects\\download\\LRS.xlsx"
+path = "C:\\Users\\user\\PycharmProjects\\download\\data.xlsx"
 wb_obj = openpyxl.load_workbook(path)
 sheet_obj = wb_obj.active
 for i in range(1, 1047):
