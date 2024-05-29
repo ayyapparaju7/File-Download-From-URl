@@ -3,9 +3,9 @@ import wget
 import os
 
 # Path to the Excel file
-excel_path = "C:\\LRS\\LRS.xlsx"
+excel_path = "C:\\User\\File Location.xlsx"
 # Directory to save the downloaded files
-download_dir = "C:\\LRS\\Downloads"
+download_dir = "C:\\User\\Downloads"
 
 # Ensure the download directory exists
 os.makedirs(download_dir, exist_ok=True)
