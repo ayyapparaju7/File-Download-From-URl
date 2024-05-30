@@ -67,13 +67,12 @@ Run the script:
 Update the paths in the script to match the locations of your Excel file and download directory.
 
 Run the script using Python:
-
-bash
-Copy code
+```bash
 python download_files.py
+
 The script will read the Excel file, download each file from the specified URLs, and save them with the specified filenames. Progress will be displayed in the terminal.
 
-Script Details
+**Script Details**
 The script performs the following steps:
 
 Loads the Excel file specified by excel_file_path.
@@ -86,7 +85,8 @@ Filename	Download URL
 file1.pdf	http://example.com/file1.pdf
 file2.pdf	http://example.com/file2.pdf
 ...	...
-Error Handling
+**Error Handling**
+
 The script checks for missing filenames or URLs and logs them as failures.
 It handles exceptions during the download process and logs the reason for any failure.
 Notes
