@@ -50,8 +50,6 @@ This script downloads files from URLs specified in an Excel file and saves them 
 
 3. Install the required Python packages using pip:
 
-   ```bash
-   pip install openpyxl wget tqdm
 Usage
 Prepare your Excel file:
 
@@ -69,8 +67,9 @@ Update the paths in the script to match the locations of your Excel file and dow
 Run the script using Python:
 ```bash
 python download_files.py
+```
 
-The script will read the Excel file, download each file from the specified URLs, and save them with the specified filenames. Progress will be displayed in the terminal.
+#The script will read the Excel file, download each file from the specified URLs, and save them with the specified filenames. Progress will be displayed in the terminal.
 
 **Script Details**
 The script performs the following steps:
